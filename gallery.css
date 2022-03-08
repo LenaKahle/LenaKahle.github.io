@@ -162,3 +162,8 @@ a {
     max-width: 800px;
     margin: 30px;
 }
+
+table {
+  width: 70%;
+  table-layout: fixed;
+}
