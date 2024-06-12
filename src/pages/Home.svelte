@@ -11,6 +11,6 @@
 
 {#if projects}
     {#each Object.entries(projects) as [title, project]}
-        <GalleryItem {title} image={project.image} href="/{title}" />
+        <GalleryItem {title} image={project.image} href="/#/{title}" />
     {/each}
 {/if}

@@ -2,13 +2,10 @@
     import Button from '../components/Button.svelte';
     import Sidebar from './Sidebar.svelte';
 
-    export let pageTitle;
-    export let description;
-
     let sidebarVisible = false;
 </script>
 
-<div class="flex gap-10 justify-between items-center pt-2 pb-2 px-4 text-secondary-text shadow z-20">
+<div class="flex gap-10 justify-between items-center pt-2 pb-2 px-4 text-secondary-text shadow z-20 bg-secondary-dark">
     <!-- Left section with menu -->
     <div class="items-center flex-shrink-0 flex">
         <Button on:click={() => sidebarVisible = !sidebarVisible} variant="ghost" size="icon">
@@ -16,15 +13,12 @@
         </Button>
     </div>
 
-    <div class="absolute left-1/2 transform -translate-x-1/2 flex flex-col justify-center items-center">
-        <div class="font-bold text-lg leading-tight">{pageTitle}</div>
-        {#if description}
-            <div class="text-sm leading-tight">{description}</div>
-        {/if}
-    </div>
 
-    <div class="font-semibold">
-        Berufsberatungsfragebogen
+    <div class="absolute left-1/2 transform -translate-x-1/2 flex flex-col justify-center items-center">
+        <a href="/#/">
+            <img src="favicon.png" alt="Logo">
+            <h1 class="font-bold text-lg leading-tight">Lena Kahle</h1>
+        </a>
     </div>
 </div>
 
