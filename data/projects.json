@@ -1,0 +1,63 @@
+{
+    "sewing": {
+        "description": [
+            "Since the beginning of 2020, I have sewn (or thrifted) all of my clothing.",
+            "Here's some of my projects!"
+        ],
+        "image": "images/sewing.jpg",
+        "projects":[ 
+            {
+                "title": "My Prom Dress",
+                "description": [
+                    "This is the dress I made for my graduation. Technically, there would have been a prom but it got cancelled due to the pandemic.",
+                    "For the skirt, I used a 3/4 circle skirt. The bodice is the 'Rose Café Bustier' by Daria Patternmaking and can be found <a href='https://www.etsy.com/de/listing/928865664/updated-soft-cup-bustier-bodice-dress-eu' target='_blank'>here</a>.",
+                    "The fabric I used is 'Baumwollsatin Valerie' by Stoffe Hemmers. It is a heavier cotton satin."
+                ],
+                "images": [
+                    "images/sewing/abi_dress_1.jpg",
+                    "images/sewing/abi_dress_2.jpg"
+                ]
+            },
+            {
+                "title": "Couture-esque Bodysuit",
+                "description": [
+                    "My goal is making a more couture-esque, Jean-Paul Gaultier inspired project.",
+                    "The pattern is self-drafted. The shoulder details are made using synthetic boning encased in black satin."
+                ],
+                "images": [
+                    "images/sewing/black_white_dress_1.jpg"
+                ]
+            },
+            {
+                "title": "Blue Velvet Blazer",
+                "description": [
+                    "My first attempt at sewing a blazer. I used a blue velvet that I got second hand, it used to be an upholstery fabric so it is a bit bulky for a blazer.",
+                    "The pattern I used is 'The Ercilla Suit' by moodfabrics and can be found <a href='https://www.moodfabrics.com/blog/the-ercilla-suit-free-sewing-pattern/' target='_blank'>here</a>."
+                ],
+                "images": [
+                    "images/sewing/blue_velvet_blazer_1.jpg",
+                    "images/sewing/blue_velvet_blazer_2.jpg",
+                    "images/sewing/blue_velvet_blazer_3.jpg"
+                ]
+            }
+        ]
+    },
+
+    "programming": {
+        "description": [],
+        "image": "images/programming.jpg",
+        "projects": []
+    },
+
+    "printmaking": {
+        "description": ["Linocuts and Stamps"],
+        "image": "images/printmaking.jpg",
+        "projects": []
+    },
+
+    "photography": {
+        "description": [],
+        "image": "images/photography.jpg",
+        "projects": []
+    }
+}
