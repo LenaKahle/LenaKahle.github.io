@@ -1,0 +1,168 @@
+{
+    "title": "CURRICULUM VITAE",
+    "linkedin": "https://www.linkedin.com/in/lena-kahle-97393419b",
+    "education": [
+      {
+        "period": "2020 - ongoing",
+        "title": "TUM Computer Science Bachelor",
+        "location": "Munich"
+      },
+      {
+        "period": "2019-2021",
+        "title": "TUMKolleg at the Otto-von-Taube-Gymnasium (High School)",
+        "location": "Gauting",
+        "details": [
+          "Abitur grade: 1.0",
+          "Collaboration of the Technical University Munich and high school for scientifically interested students which includes getting to know the TUM facilities",
+          "Writing a research paper: Analysis of a Life Support System for a Lunar South Pole Baseat the chair for space technology at the TUM"
+        ]
+      },
+      {
+        "period": "2013 - 2019",
+        "title": "Class for highly gifted students at the Otto-von-Taube-Gymnasium",
+        "location": "Gauting",
+        "details": [
+          "Editor in chief and layouter of the student newspaper (2015-2020)",
+          "Advanced research and writing papers about tipping elements in climate change, Politeia by Platon and the portrayal of hackers in literature",
+          "Student exchanges with France, Italy and the UK",
+          "Erasmus Plus Project “Climate Change”: Experiments for explaining climate change",
+          "Junior Science Café: Organisation of discussions with experts on drones, forensics, and scientific reactors"
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "period": "Oct 2023 - April 2024",
+        "title": "TUM Student Librarian",
+        "location": "Garching"
+      },
+      {
+        "period": "2022 - 2023",
+        "title": "German Aerospace Center (DLR) Student Data Scientist",
+        "location": "Oberpfaffenhofen",
+        "details": [
+          "Researching and implementing smoothing algorithms for the satellite telemetry analysis tool 'Athmos'"
+        ]
+      },
+      {
+        "period": "April-Oct 2022",
+        "title": "German Aerospace Center (DLR) Student Software Developer",
+        "location": "Oberpfaffenhofen",
+        "details": [
+          "Development of web tools for supporting the flight control team of the Columbus module on the ISS"
+        ]
+      },
+      {
+        "period": "Dec-Feb 2021",
+        "title": "CHECK24 Student software developer",
+        "location": "Munich",
+        "details": [
+          "Development of a notification tool using PHP"
+        ]
+      },
+      {
+        "period": "July-Aug 2020",
+        "title": "CHECK24 Software development internship",
+        "location": "Munich"
+      },
+      {
+        "period": "Aug 2018",
+        "title": "ARPnet IT-Services Internship",
+        "location": "Weßling",
+        "details": [
+          "Working with virtual environments",
+          "Outlining and implementing batch scripts"
+        ]
+      },
+      {
+        "period": "2018 - 2020",
+        "title": "Freelancing as a graphic designer",
+        "location": "Weßling",
+        "details": [
+          "Image editing and layout as well as conception and creation of logos"
+        ]
+      }
+    ],
+    "awards and scholarships": [
+      {
+        "period": "2022 - 2023",
+        "title": "Deutschlandstipendium",
+        "location": "Munich",
+        "details": [
+          "Scholarship for high-achieving and committed students, co-financed by QuantCo"
+        ]
+      },
+      {
+        "period": "2021",
+        "title": "Jugend forscht",
+        "details": [
+          "Award for the best interdisciplinary research project (Bavarian state winner)",
+          "Award of the German Aerospace Center (DLR) for a research project in the field of space (special award in the national competition)",
+          "Guest speaker at the Bavarian Space Summit with astronauts Matthias Maurer and Alexander Gerst and Bavarian Governor Markus Söder"
+        ]
+      },
+      {
+        "period": "March 2020-2021",
+        "title": "CHECK24 IT scholarship",
+        "location": "Munich",
+        "details": [
+          "Mentoring for IT skills",
+          "Backend development of web-tool 'Gameorama' via API and Python"
+        ]
+      }
+    ],
+    "extracurricular activities": [
+      {
+        "period": "Aug 2019",
+        "title": "University Mainz KlimAkademie",
+        "location": "Mainz",
+        "details": [
+          "Three-day seminar for students interested in the mechanics and options of preventing climate change during summer vacation"
+        ]
+      },
+      {
+        "period": "July 2019",
+        "title": "Academy for political education",
+        "location": "Tutzing",
+        "details": [
+          "Advanced seminar on data protection and privacy"
+        ]
+      },
+      {
+        "period": "Jan 2018, Jan 2017",
+        "title": "Georg-von-Vollmar-Academy seminar for school newspaper editors",
+        "location": "Kochel"
+      }
+    ],
+    "languages": [
+      "German (native speaker)",
+      "English (fluent)",
+      "French (good working knowledge)",
+      "Latin (proficiency certificate - Latinum)",
+      "Italian (basic knowledge)"
+    ],
+    "itSkills": [
+      "MS Office",
+      "Java",
+      "Python (incl. django)",
+      "Svelte (JS framework)",
+      "PHP",
+      "OCaml",
+      "x86 Assembly",
+      "C",
+      "MATLAB",
+      "SQL",
+      "GIMP",
+      "Scribus",
+      "Inkscape",
+      "Krita"
+    ],
+    "personalInterests": [
+      "Sewing",
+      "Archeology",
+      "Classical Literature",
+      "Printmaking",
+      "(Analog) Photography"
+    ]
+  }
+  

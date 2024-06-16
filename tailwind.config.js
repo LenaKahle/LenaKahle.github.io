@@ -5,6 +5,9 @@ export default {
   purge: ['./src/**/*.{svelte,js}'],
   darkMode: false,
   theme: {
+    fontFamily: {
+      'sans': ['Montserrat'],
+    },
     extend: {
       colors: {
         secondary: {

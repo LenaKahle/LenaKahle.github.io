@@ -7,15 +7,135 @@
         "image": "images/sewing.jpg",
         "projects":[ 
             {
-                "title": "My Prom Dress",
+                "title": "Autumn Leaves Set",
                 "description": [
-                    "This is the dress I made for my graduation. Technically, there would have been a prom but it got cancelled due to the pandemic.",
-                    "For the skirt, I used a 3/4 circle skirt. The bodice is the 'Rose Café Bustier' by Daria Patternmaking and can be found <a href='https://www.etsy.com/de/listing/928865664/updated-soft-cup-bustier-bodice-dress-eu' target='_blank'>here</a>.",
-                    "The fabric I used is 'Baumwollsatin Valerie' by Stoffe Hemmers. It is a heavier cotton satin."
+                    "This project might not be entirely practical (though I think 'casual business tree' should become a fashion trend) but I had a lot of fun designing and making it! Sewing 1300 leaves to the skirt was surprisingly meditative and only took a few days. I really love the outcome and wearing it is a lot of fun!",
+                    "For more versatility, I decided to make the dress a two piece set, a historical stays inspired top and a vaguely 18th century silhouette skirt. Inspiration for this project came from Bernadette Banner's leaves cape, PricklyAlpaca's leaves dress and the Critical Role character Keyleth."
                 ],
                 "images": [
-                    "images/sewing/abi_dress_1.jpg",
-                    "images/sewing/abi_dress_2.jpg"
+                    "images/sewing/leaves_set/0.jpg",
+                    "images/sewing/leaves_set/1.jpg",
+                    "images/sewing/leaves_set/2.jpg",
+                    "images/sewing/leaves_set/3.jpg",
+                    "images/sewing/leaves_set/4.jpg",
+                    "images/sewing/leaves_set/5.jpg",
+                    "images/sewing/leaves_set/6.jpg",
+                    "images/sewing/leaves_set/7.jpg"
+                ]
+            },
+            {
+                "title": "Terrarium Jacket",
+                "description": [
+                    "This terrarium inspired jacket is made from a fake plant and curtains from IKEA. The idea for the project came from Rachel Maksys \"Terrarium Sleeves\" project."
+                ],
+                "images": [
+                    "images/sewing/terrarium_jacket/1.jpg",
+                    "images/sewing/terrarium_jacket/2.jpg",
+                    "images/sewing/terrarium_jacket/3.jpg",
+                    "images/sewing/terrarium_jacket/4.jpg"
+                ]
+            },
+            {
+                "title": "Upcycled Towel Jacket",
+                "description": [
+                    "For making this jacket, I upcycled two old towels. For the pattern, I slightly modified the pattern I made for the red jacket with white stitching details."
+                ],
+                "images": [
+                    "images/sewing/towel_jacket/1.jpg",
+                    "images/sewing/towel_jacket/2.jpg",
+                    "images/sewing/towel_jacket/3.jpg",
+                    "images/sewing/towel_jacket/4.png"
+                ]
+            },
+            {
+                "title": "Upcycled Sail Jacket",
+                "description": [
+                    "This jacket is made from an upcycled old sail. The design is inspired by a retro windbreaker I saw on Pinterest. The material is very stiff but great at repelling rain."
+                ],
+                "images": [
+                    "images/sewing/sail_jacket/1.jpg",
+                    "images/sewing/sail_jacket/2.jpg",
+                    "images/sewing/sail_jacket/3.jpg",
+                    "images/sewing/sail_jacket/4.jpg"
+                ]
+            },
+            {
+                "title": "Ray Shirt",
+                "description": [
+                    "A decorated t-shirt I made using the Sparrow Tee pattern by Common Stitch."
+                ],
+                "images": [
+                    "images/sewing/ray_shirt/1.jpg",
+                    "images/sewing/ray_shirt/2.jpg",
+                    "images/sewing/ray_shirt/3.jpg"
+                ]
+            },
+            {
+                "title": "Renaissance Inspired Sweatshirt",
+                "description": [
+                    "I love integrating history and fantasy inspired pieces into my wardrobe, so I decided to sew myself a renaissance slashed sleeve sweatshirt :)",
+                    "I drafted the pattern based on a sweatshirt that I own. The sleeve pattern can be seen in the 4th image.",
+                    "I bought the fabric I used for this project in Amsterdam, the red parts are sweatshirt fabric and the white parts are cotton.",
+                    "I really love how it turned out!"
+                ],
+                "images": [
+                    "images/sewing/ren_sweatshirt/ren_sweatshirt_1.jpeg",
+                    "images/sewing/ren_sweatshirt/ren_sweatshirt_2.jpeg",
+                    "images/sewing/ren_sweatshirt/ren_sweatshirt_3.jpeg",
+                    "images/sewing/ren_sweatshirt/ren_sweatshirt_4.jpeg"
+                ]
+            },
+            {
+                "title": "Cable Organizer Pouch",
+                "description": [
+                    "I needed something to organize the mess of chargers floating around in my backpack, so I decided to sew an organizer pouch. It works great!"
+                ],
+                "images": [
+                    "images/sewing/cable_pouch/0.jpg",
+                    "images/sewing/cable_pouch/1.jpg",
+                    "images/sewing/cable_pouch/2.jpg",
+                    "images/sewing/cable_pouch/3.jpg",
+                    "images/sewing/cable_pouch/4.png"
+                ]
+            },
+            {
+                "title": "Burgundy Jacket",
+                "description": [
+                    "A burgundy jacket with a lot of white topstitching done by hand. The fabric I used is the burgundy cotton satin \"Valerie\" by Stoffe Hemmers. As this was a spontaneous project, I used the fabric I had in my stash, otherwise I would have either added a lining or chosen a softer fabric.",
+                    "The pattern is self-drafted, based on another jacket in my wardrobe."
+                ],
+                "images": [
+                    "images/sewing/white_stitching_jacket/1.JPG",
+                    "images/sewing/white_stitching_jacket/2.JPG",
+                    "images/sewing/white_stitching_jacket/3.JPG",
+                    "images/sewing/white_stitching_jacket/4.JPG",
+                    "images/sewing/white_stitching_jacket/5.JPG"
+                ]
+            },      
+            {
+                "title": "Renaissance Fair Dress",
+                "description": [
+                    "When I designed this dress, I wanted it to be inspired by the (partially) historical dresses worn at renaissance fairs.",
+                    "The pattern is self-drafted. I used a burgundy linen and <a href='https://www.stoffundstil.de/naehzubehoer/band/webband-mit-fransen-60mm-schwarz-2m' target='_blank'>this lace in off-white from Stoff & Stil.</a>"
+                ],
+                "images": [
+                    "images/sewing/ren_fair_dress/0.JPG",
+                    "images/sewing/ren_fair_dress/1.JPG",
+                    "images/sewing/ren_fair_dress/2.JPG",
+                    "images/sewing/ren_fair_dress/3.JPG",
+                    "images/sewing/ren_fair_dress/4.JPG",
+                    "images/sewing/ren_fair_dress/5.JPG",
+                    "images/sewing/ren_fair_dress/6.JPG"
+                ]
+            },
+            {
+                "title": "Embroidered T-Shirt",
+                "description": [
+                    "A t-shirt I sewed and embroidered on. I used the Sparrow Tee pattern by Common Stitch and jersey from Selfmade. The lineart design is by the Brazilian artist Ninhol."
+                ],
+                "images": [
+                    "images/sewing/embroidered_shirt/1.jpg",
+                    "images/sewing/embroidered_shirt/2.jpg"
                 ]
             },
             {
@@ -25,7 +145,19 @@
                     "The pattern is self-drafted. The shoulder details are made using synthetic boning encased in black satin."
                 ],
                 "images": [
-                    "images/sewing/black_white_dress_1.jpg"
+                    "images/sewing/black_white_dress/1.jpg"
+                ]
+            },
+            {
+                "title": "My Prom Dress",
+                "description": [
+                    "This is the dress I made for my graduation. Technically, there would have been a prom but it got cancelled due to the pandemic.",
+                    "For the skirt, I used a 3/4 circle skirt. The bodice is the 'Rose Café Bustier' by Daria Patternmaking and can be found <a href='https://www.etsy.com/de/listing/928865664/updated-soft-cup-bustier-bodice-dress-eu' target='_blank'>here</a>.",
+                    "The fabric I used is 'Baumwollsatin Valerie' by Stoffe Hemmers. It is a heavier cotton satin."
+                ],
+                "images": [
+                    "images/sewing/abi_dress/1.jpg",
+                    "images/sewing/abi_dress/2.jpg"
                 ]
             },
             {
@@ -35,9 +167,19 @@
                     "The pattern I used is 'The Ercilla Suit' by moodfabrics and can be found <a href='https://www.moodfabrics.com/blog/the-ercilla-suit-free-sewing-pattern/' target='_blank'>here</a>."
                 ],
                 "images": [
-                    "images/sewing/blue_velvet_blazer_1.jpg",
-                    "images/sewing/blue_velvet_blazer_2.jpg",
-                    "images/sewing/blue_velvet_blazer_3.jpg"
+                    "images/sewing/blue_velvet_blazer/1.jpg",
+                    "images/sewing/blue_velvet_blazer/2.jpg",
+                    "images/sewing/blue_velvet_blazer/3.jpg"
+                ]
+            },         
+            {
+                "title": "\"This is fine\" T-Shirt",
+                "description": [
+                    "A fun project to experiment with painting on fabric.",
+                    "The pattern is drafted based on another t-shirt in my wardrobe."
+                ],
+                "images": [
+                    "images/sewing/this_is_fine_shirt/1.jpg"
                 ]
             }
         ]
