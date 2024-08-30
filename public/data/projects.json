@@ -194,7 +194,9 @@
     "printmaking": {
         "description": ["Linocuts and Stamps"],
         "image": "images/printmaking.jpg",
-        "projects": []
+        "projects": [
+            
+        ]
     },
 
     "photography": {
