@@ -5,11 +5,12 @@
     import Header from './components/Header.svelte';
 </script>
 
-<main>
-    <div class="max-h-screen flex flex-col">
-        <Header />
+<div class="max-h-screen flex flex-col bg-bright text-dark">
+    <Header class="shadow"/>
+
+    <div class='h-screen overflow-auto mt-2 flex flex-col w-full bg-dark bg-opacity-5'>
         <Router routes={routes}  />
     </div>
-    
-    <TailwindCss />
-</main>
+</div>
+
+<TailwindCss />

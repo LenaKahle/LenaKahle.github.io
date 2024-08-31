@@ -5,21 +5,20 @@ export default {
   purge: ['./src/**/*.{svelte,js}'],
   darkMode: false,
   theme: {
-    fontFamily: {
-      'sans': ['Montserrat'],
-    },
     extend: {
+      fontFamily: {
+        sans: ['Georgia', 'serif'], // Set Georgia as the default serif font
+        'new-amsterdam': ['New Amsterdam', 'sans-serif'], // Adding New Amsterdam as a custom font
+      },
       colors: {
-        secondary: {
-          DEFAULT: colors.neutral[300],
-          hover: colors.neutral[200],
-          text: colors.neutral[700],
-          'text-light': colors.neutral[600],
-          'text-dark': colors.neutral[800],
-          dark: colors.neutral[800],
-          'dark-hover': colors.neutral[900],
-          light: colors.neutral[100],
+        dark: colors.stone[950],
+        bright: colors.orange[100],
+        accent1: {
+          DEFAULT: colors.red[950],
+          hover: colors.red[900]
         },
+        accent2: colors.amber[600],
+        accent3: '#60682E',
       },
     },
   },
