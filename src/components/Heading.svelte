@@ -5,29 +5,13 @@
     export let fontSize = 200;
     let offset = fontSize / 40; 
 
-    let leftOffset = `-${offset}px`;
-    let topOffset = `-${offset}px`;
+    // let leftOffset = `-${offset}px`;
+    // let topOffset = `-${offset}px`;
 </script>
 
-<span class={`relative ${shadowColor} text-[${fontSize}px] font-new-amsterdam`}>
+<span class={`relative ${shadowColor} font-new-amsterdam flex`} style="font-size: {fontSize}px;">
     {text}
-    <span class={`absolute ${mainColor} text-[${fontSize}px]`} style="top: {topOffset}; left: {leftOffset};">
-        {text}
+    <span class={`absolute ${mainColor}` } style="font-size: {fontSize}px; top: -{offset}px; left: -{offset}px; ">
+            {text}
     </span>
 </span>
-
-<!-- <span class="relative {shadowColor} after:content-['Portfolio'] after:absolute after:{mainColor} after:top-[-{offset}px] {leftOffset} font-new-amsterdam text-[{fontSize}px]">
-    {text}
-</span> -->
-
-
-
-<!-- <div class="relative inline-block font-new-amsterdam {fontSize}">
-    <span class='absolute top-0 left-0 {shadowColor}' style='transform: translate({offset}, {offset});'>
-        {text}
-    </span>
-    <span class={mainColor}>
-        {text}
-    </span>
-</div>
- -->

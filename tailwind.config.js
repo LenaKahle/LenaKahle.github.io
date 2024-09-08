@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Georgia', 'serif'], // Set Georgia as the default serif font
+        sans: ['Cambria', 'serif'], // Set Georgia as the default serif font
         'new-amsterdam': ['New Amsterdam', 'sans-serif'], // Adding New Amsterdam as a custom font
       },
       colors: {
