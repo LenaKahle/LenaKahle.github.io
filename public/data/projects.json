@@ -188,14 +188,87 @@
     "programming": {
         "description": [],
         "image": "images/programming.jpg",
-        "projects": []
+        "projects": [
+            {
+                "title": "Career Counselling Questionnaire Tool",
+                "description": [
+                    "My thesis Project! [todo]"
+                ],
+                "images": []            
+            },
+            {
+                "title": "My Portfolio Website",
+                "description": [
+                    "This Website has gone through various iterations. The current implementation uses Svelte, after I discovered how great it is during my bachelor thesis project.",
+                    "Below, you can find some design sketches and screenshots of previous states of my portfolio! [todo]"
+                ],
+                "images": []
+            },
+            {
+                "title": "Gameorama",
+                "description": [
+                    "Gameorama is a project that I realized as part of the Check24 IT scholarship for high school students (CodeClub).",
+                    "I had the idea of making a tool that allows the user to discover new video games based on their favourite one. With my team, we started working on the implementation.",
+                    "I programmed the Django backend in which I queried the video games from the IGDB API and wrote a script to calculate similarity between games. I also designed our logo!"
+                ],
+                "images": [
+                    "images/programming/gameorama.png",
+                    "images/programming/gameorama/1.png",
+                    "images/programming/gameorama/2.png",
+                    "images/programming/gameorama/3.png"
+                ]
+            }
+
+        ]
     },
 
     "printmaking": {
         "description": ["Linocuts and Stamps"],
         "image": "images/printmaking.jpg",
         "projects": [
-            
+            {
+                "title": "Bust of Neptune",
+                "description": [
+                    "A linoprint based on Lambert-Sigisbert Adams 'Bust of Neptune'. I enjoyed incorporating the dramatic lighting in the design."
+                ],
+                "images": [
+                    "images/printmaking/bust_of_neptune.jpg",
+                    "https://upload.wikimedia.org/wikipedia/commons/0/04/Bust_of_Neptune_LACMA_M.75.70.jpg"
+                ]
+            },
+            {
+                "title": "Melpomene",
+                "description": [
+                    "My linoprint rendering of Melpomene, the greek muse of tragedy. The statue is located at the Hermitage Museum in Saint Petersburg."
+                ],
+                "images": [
+                    "images/printmaking/melpomene.jpg",
+                    "https://upload.wikimedia.org/wikipedia/commons/4/44/Melpomene%2C_Roman_statue_at_the_Hermitage%2C_Russia.jpg"
+                ]
+            },
+            {
+                "title": "Bust 'Fonseca'",
+                "description": [
+                    "My linoprint rendering of a Roman bust dating back to the first or second century A.D. The bust depicts a young Roman woman with an elaborate hairstyle."
+                ],
+                "images": [
+                    "images/printmaking/fonseca.jpg",
+                    "https://arachne.dainst.org/entity/1076119"
+                ]
+            },
+            {
+                "title": "Honeybee",
+                "description": ["A stamp of a cute bee."],
+                "images": [
+                    "images/printmaking/bee.jpg",
+                    "https://d1o50x50snmhul.cloudfront.net/wp-content/uploads/2017/07/25204611/p8401619.jpg"
+                ]
+            },
+            {
+                "title": "",
+                "description": [],
+                "images": []
+            }
         ]
     },
 

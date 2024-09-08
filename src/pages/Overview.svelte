@@ -15,7 +15,7 @@
 <div align="center">
     {#if data}
         {#each data.projects as project}
-            <GalleryItem title={project.title} image={project.images[0]} href="/#/{project.title}" />
+            <GalleryItem title={project.title} image={project.images[0]} href="/#/{area}/{project.title.split(' ').join('_')}" />
         {/each}
     {/if}
 </div>
