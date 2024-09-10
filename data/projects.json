@@ -214,8 +214,7 @@
                 "images": [
                     "images/programming/gameorama.png",
                     "images/programming/gameorama/1.png",
-                    "images/programming/gameorama/2.png",
-                    "images/programming/gameorama/3.png"
+                    "images/programming/gameorama/2.png"
                 ]
             }
 
@@ -257,6 +256,65 @@
                 ]
             },
             {
+                "title": "Girl with a Pearl Earring",
+                "description": [
+                    "This stamp was designed based on the painting 'Girl with a Pearl Earring' by Johannes Vermeer."
+                ],
+                "images": [
+                    "images/printmaking/girl_with_a_pearl_earring.jpg",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Meisje_met_de_parel.jpg/1280px-Meisje_met_de_parel.jpg"
+                ]
+            },
+            {
+                "title": "Hylas and the Water Nymphs",
+                "description": [
+                    "This stamp was inspired by the painting 'Hylas and the Water Nymphs' by Henrietta Rae. It depicts the nymph in the bottom center of the painting."
+                ],
+                "images": [
+                    "images/printmaking/nymph.jpg",
+                    "https://upload.wikimedia.org/wikipedia/commons/9/93/Rae_-_Water_Nymphs_%28color%29.png"
+                ]
+            },
+            {
+                "title": "The Creation of Adam",
+                "description": [
+                    "A study of the fresco painting 'The Creation of Adam' by Michelangelo."
+                ],
+                "images": [
+                    "images/printmaking/the_creation_of_adam.jpg",
+                    "https://upload.wikimedia.org/wikipedia/commons/5/5b/Michelangelo_-_Creation_of_Adam_%28cropped%29.jpg"
+                ]
+            },
+            {
+                "title": "Medusa",
+                "description": [
+                    "A stamp inspired by a statue of Medusa."
+                ],
+                "images": [
+                    "images/printmaking/medusa.jpg",
+                    "https://ze-robot.com/images/source/9683.jpg"
+                ]
+            },
+            {
+                "title": "Faust",
+                "description": [
+                    "A redesigned linoprinted cover for 'Faust' by Johann Wolfgang von Goethe. The cover depicts Faust's study, including several objects mentioned in the book."
+                ],
+                "images": [
+                    "images/printmaking/faust.jpg"
+                ]
+            },
+            {
+                "title": "The Soul of the Rose",
+                "description": [
+                    "This stamp was inspired by the painting 'The Soul of the Rose' by John William Waterhouse."
+                ],
+                "images": [
+                    "images/printmaking/soul_of_the_rose.jpg",
+                    "https://upload.wikimedia.org/wikipedia/commons/c/c4/John_William_Waterhouse_-_The_Soul_of_the_Rose%2C_1903.jpg"
+                ]
+            },
+            {
                 "title": "Honeybee",
                 "description": ["A stamp of a cute bee."],
                 "images": [
@@ -265,9 +323,18 @@
                 ]
             },
             {
-                "title": "",
-                "description": [],
-                "images": []
+                "title": "Practice Projects",
+                "description": [
+                    "These linoprints are either not my usual style, based on another artist's style, or a copy of another artwork.",
+                    "Valkyrie: A print featuring a valkyrie. The style of this linoprint is inspired by Jessica Benhar while the motive is my design.",
+                    "Witch: My first time experimenting with two-colour linoprints! I designed and made this witchy print in September 2020.",
+                    "Astronaut: My linoprint rendering of the Astronaut/Cosmonaut mural in Berlin by French street-artist Ash."
+                ],
+                "images": [
+                    "images/printmaking/practice_project_valkyrie.jpg",
+                    "images/printmaking/practice_project_witch.jpg",
+                    "images/printmaking/practice_project_astronaut.jpg"
+                ]
             }
         ]
     },
