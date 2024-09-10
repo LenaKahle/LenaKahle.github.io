@@ -6,11 +6,11 @@ import Project from './pages/Project.svelte';
 const routes = {
     '/': Home,
     '/cv': CV,
-    '/sewing': Overview,
-    '/photography': Overview,
-    '/printmaking': Overview,
-    '/programming': Overview,
-    '/:category/:title': Project,
+    // '/sewing': Overview,
+    // '/photography': Overview,
+    // '/printmaking': Overview,
+    // '/programming': Overview,
+    '/:category/:project?': Overview,
 };
   
 export default routes;

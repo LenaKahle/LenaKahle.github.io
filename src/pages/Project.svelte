@@ -1,11 +1,9 @@
 <script>
     import { onMount } from "svelte";
-    import {push} from "svelte-spa-router";
+    import Gallery from "../components/Gallery.svelte";
 
-    let location = window.location.hash.replace('#/', '');
-
-    let category = location.split('/')[0];
-    let title = location.split('/')[1].split('_').join(' ');
+    export let title;
+    export let category;
     let project;
 
     onMount(async() => {
@@ -15,25 +13,22 @@
     });
 </script>
 
-
-<div align="center">
-    <button on:click={() => push("/" + category)}>Back to the {category} projects overview</button>
-
+<div class="flex flex-row justify-between m-2">
     {#if project}
-        <h1 class="text-[100px] leading-tight font-new-amsterdam">{project.title}</h1>
+    
+        <div class="w-auto">
+            <h1 class="text-[100px] leading-none font-new-amsterdam">{project.title}</h1>
 
-        <p class="w-2/3 text-left">
-            {#each project.description as infotext}
-                <div>{infotext}</div>
-            {/each}
-        </p>
+            <p class="text-left">
+                {#each project.description as infotext}
+                    <div>{infotext}</div>
+                {/each}
+            </p>
+    
+        </div>
 
-
-
-        <div class="grid grid-cols-2 md:grid-cols-3 gap-2">
-            {#each project.images as image}
-                <img src={image} loading="lazy" alt="project" class="w-[350px] h-auto">
-            {/each}
+        <div class="w-full">
+            <Gallery images={project.images} />
         </div>
     {/if}
 </div>
