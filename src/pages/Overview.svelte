@@ -1,14 +1,11 @@
 <script>
     import { onMount } from "svelte";
-    import GalleryItem from "../components/GalleryItem.svelte";
+    import ProjectIcon from "../components/ProjectIcon.svelte";
     import Heading from "../components/Heading.svelte";
-    import Project from "./Project.svelte";
-    import Popup from "../components/Popup.svelte";
     
     let data;
     let location = window.location.hash.replace('#/', '');
     let category = location.split('/')[0];
-    let openProject = false;
 
 
     onMount(async() => {
@@ -18,13 +15,6 @@
         console.log(data);
     });
 
-    function openProjectPopup(title) {
-        openProject = title;        
-    }
-
-    function closeProjectPopup() {
-        openProject = false;
-    }
 </script>
 
 
@@ -40,12 +30,9 @@
         </div>
 
         {#each data.projects as project}
-            <GalleryItem title={project.title} image={project.images[0]} href="/#/{category}" on:click={()=> openProjectPopup(project.title)} />
+            <ProjectIcon title={project.title} image={project.images[0]} {category} />
         {/each}
     {/if}
 
 </div>
 
-<Popup isOpen={openProject} width="w-10/12" on:closePopup={closeProjectPopup}>
-    <Project title={openProject} {category} />
-</Popup>

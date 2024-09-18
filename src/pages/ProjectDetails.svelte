@@ -21,7 +21,7 @@
 
             <p class="text-left">
                 {#each project.description as infotext}
-                    <div>{infotext}</div>
+                    <p>{infotext}</p><br>
                 {/each}
             </p>
     

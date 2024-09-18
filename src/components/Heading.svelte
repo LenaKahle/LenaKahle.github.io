@@ -4,9 +4,6 @@
     export let shadowColor = 'text-accent2';
     export let fontSize = 200;
     let offset = fontSize / 40; 
-
-    // let leftOffset = `-${offset}px`;
-    // let topOffset = `-${offset}px`;
 </script>
 
 <span class={`relative ${shadowColor} font-new-amsterdam flex`} style="font-size: {fontSize}px;">
