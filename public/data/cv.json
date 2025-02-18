@@ -3,9 +3,18 @@
     "linkedin": "https://www.linkedin.com/in/lena-kahle-97393419b",
     "education": [
       {
-        "period": "2020 - ongoing",
-        "title": "TUM Computer Science Bachelor",
+        "period": "2024 - ongoing",
+        "title": "LMU Archaeology Bachelor",
         "location": "Munich"
+      },
+      {
+        "period": "2020 - 2024",
+        "title": "TUM Computer Science Bachelor",
+        "location": "Munich",
+        "details": [
+          "Final Grade: 1.6",
+          "Bachelor Thesis: 'Development of a Prototype for Program- and Deep Learning-Based Career Guidance at Schools'"
+        ]
       },
       {
         "period": "2019-2021",
@@ -31,6 +40,14 @@
       }
     ],
     "experience": [
+      {
+        "period": "Nov 2024 - ongoing",
+        "title": "Check24 Software Developer",
+        "location": "Munich",
+        "details": [
+          "Java Developer at IdentityCheck (Identity verification service)"
+        ]
+      },
       {
         "period": "Oct 2023 - April 2024",
         "title": "TUM Student Librarian",
@@ -135,11 +152,11 @@
       }
     ],
     "languages": [
-      "German (native speaker)",
-      "English (fluent)",
-      "French (good working knowledge)",
-      "Latin (proficiency certificate - Latinum)",
-      "Italian (basic knowledge)"
+      "<b>German</b> (native speaker)",
+      "<b>English</b> (fluent)",
+      "<b>French</b> (good working knowledge)",
+      "<b>Latin</b> (proficiency certificate - Latinum)",
+      "<b>Italian</b> (basic knowledge)"
     ],
     "itSkills": [
       "MS Office",
@@ -158,11 +175,12 @@
       "Krita"
     ],
     "personalInterests": [
-      "Sewing",
+      "<a style='color:SteelBlue' href='/#/sewing' target='_blank'>Sewing</a>",
       "Archeology",
       "Classical Literature",
-      "Printmaking",
-      "(Analog) Photography"
+      "<a style='color:SteelBlue' href='/#/printmaking' target='_blank'>Printmaking</a>",
+      "<a style='color:SteelBlue' href='/#/photography' target='_blank'>(Analog) Photography</a>",
+      "Gardening"
     ]
   }
   

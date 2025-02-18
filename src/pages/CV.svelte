@@ -1,7 +1,6 @@
 <script>
     import { onMount } from "svelte";
     import Heading from "../components/Heading.svelte";
-    import Gallery from "../components/Gallery.svelte";
 
     let cv;
     const keys = ['education', 'experience', 'awards and scholarships', 'extracurricular activities'];
@@ -16,14 +15,11 @@
 <div align="center" class="flex flex-col items-center justify-center">
     <div class="">
         <Heading text="Lena Kahle CV"/>
-        <!-- <h1 class="text-4xl font-bold ">CURRICULUM VITAE</h1> -->
         <a class="font-new-amsterdam tracking-widest hover:underline text-[40px]" target="_blank" href={cv?.linkedin}>LINKEDIN: LENA KAHLE</a>
-        
-        <!-- <div class="w-44 h-1 bg-secondary-dark m-auto mt-4"></div> -->
     </div>
 
     {#if cv}
-        <table>
+        <table class="w-2/3 mb-8">
             {#each keys as key}
                 <tr> 
                     <td colspan="3" class="font-semibold font-new-amsterdam text-[60px]">{key}</td>
@@ -47,25 +43,31 @@
                 {/each}
             {/each}
 
-            <!-- <Gallery images={cv["images"]} /> -->
-
             <tr>
                 <td><strong>Languages</strong></td>
-                <td colspan="2"><strong>German</strong> native speaker, <strong>English</strong> fluent,<strong>French</strong> good working knowledge, <strong>Latin</strong> proficiency certificate (Latinum), <strong>Italian</strong> basic knowledge</td>
+                <td colspan="2">
+                    {#each cv["languages"] as language, i}
+                        {@html language}{i < cv["languages"].length - 1 ? ', ' : ''}
+                    {/each}
+                </td>
             </tr>
 
             <tr>
                 <td><strong>IT Skills (Personal Projects / Working Experience)</strong></td>
-                <td colspan="2">MS Office, Java, Python (incl. django), Svelte (JavaScript framework), PHP, SQL, GIMP, Scribus, Inkscape, Krita</td>
-            </tr>
-            <tr>
-                <td><strong>IT Skills (University Courses)</strong></td>
-                <td colspan="2">OCaml, x86 Assembly, C, MATLAB</td>
+                <td colspan="2">
+                    {#each cv["itSkills"] as skill, i}
+                        {skill}{i < cv["itSkills"].length - 1 ? ', ' : ''}
+                    {/each}
+                </td>
             </tr>
 
             <tr>
                 <td><strong>Personal Interests</strong></td>
-                <td colspan="2"><a style="color:SteelBlue" href="/#/sewing" target="_blank">sewing</a>, <a style="color:SteelBlue" href="/#/printmaking" target="_blank">printmaking</a>, <a style="color:SteelBlue" href="/#/photography" target="_blank">photography</a>, Dungeons and Dragons</td>
+                <td colspan="2">
+                    {#each cv["personalInterests"] as interest, i}
+                        {@html interest}{i < cv["personalInterests"].length - 1 ? ', ' : ''}
+                    {/each}
+                </td>
             </tr>
         </table>
     {/if}

@@ -24,7 +24,7 @@
     </div>
     
     {#if projects}
-        <div class="flex flex-col mx-4 justify-center">
+        <div class="flex flex-col mx-4 justify-center w-2/3 mb-8">
             {#each Object.entries(projects) as [title, projects]}
                 <div class="flex flex-row items-center justify-between">
                     <div class="flex">
