@@ -8,7 +8,7 @@ const routes = {
     '/': Home,
     '/cv': CV,
     '/blog': Blog,
-    '/blog/:blog-post': BlogPost,
+    '/blog/:post': BlogPost,
     '/:category': Overview,
 };
   

@@ -1,35 +1,45 @@
 <script>
-    import { onMount } from "svelte";
-    import { parse } from "marked"; // or use your preferred markdown parser
-    export let params; // expects { filename }
+  import { onMount } from "svelte";
+  import { marked } from "marked";
+  import LoadingSpinner from "../components/LoadingSpinner.svelte";
 
-    let html = '';
-    let title = '';
-    let created = '';
+  export let params; // expects { post }
+  let loading = true;
 
-    function parseFrontmatter(md) {
-        const match = md.match(/^---\s*([\s\S]*?)\s*---\s*([\s\S]*)$/);
-        if (!match) return { frontmatter: {}, content: md };
-        const frontmatter = {};
-        match[1].split('\n').forEach(line => {
-            const [key, ...rest] = line.split(':');
-            if (key && rest.length) frontmatter[key.trim()] = rest.join(':').trim();
-        });
-        return { frontmatter, content: match[2] };
+  let title = "";
+  let created = "";
+  let html = "";
+
+  onMount(async () => {
+    const indexRes = await fetch('/blog-posts/index.json');
+    const posts = await indexRes.json();
+    const postMeta = posts.find(p => p.slug === params.post);
+
+    if (postMeta) {
+      created = postMeta.created;
+      title = postMeta.title;
+    } else {
+      title = "Post not found";
+      created = "";
     }
 
-    onMount(async () => {
-        const res = await fetch(`/blog-posts/${params.filename}.md`);
-        const md = await res.text();
-        const { frontmatter, content } = parseFrontmatter(md);
-        title = params.filename.replace(/[-_]/g, ' ');
-        created = frontmatter.Created;
-        html = parse(content);
-    });
+    const res = await fetch(`/blog-posts/${params.post}/${params.post}.md`);
+    const md = await res.text();
+    html = marked(md);
+    loading = false;
+  });
 </script>
 
-<div class="prose max-w-none">
-    <h1 class="heading mb-2">{title}</h1>
-    <div class="text-gray-500 mb-4">{created}</div>
-    {@html html}
-</div>
+{#if loading}
+  <LoadingSpinner />
+{:else}
+  <div class="flex flex-col items-center w-full px-2 sm:px-4">
+    <div class="w-full md:w-2/3 flex flex-col mb-8">
+  <h1 class="heading heading-size-sm heading-size-md text-center">{title}</h1>
+      <p class="text-gray-500 text-sm mb-2 text-center">{created}</p>
+      <article class="prose w-full max-w-full">
+        {@html html}
+      </article>
+    </div>
+  </div>
+{/if}
