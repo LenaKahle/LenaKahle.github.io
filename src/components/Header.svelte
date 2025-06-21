@@ -10,6 +10,7 @@
     <div class="flex gap-4 pr-4 ">
         <a href="/#/blog">Blog</a>
         <a href="/#/cv">CV</a>
+        <a href="/#">HOME</a>
     </div>
 
 </div>
