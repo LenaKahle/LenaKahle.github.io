@@ -13,7 +13,10 @@
         "location": "Munich",
         "details": [
           "Final Grade: 1.6",
-          "Bachelor Thesis: 'Development of a Prototype for Program- and Deep Learning-Based Career Guidance at Schools'"
+          "Bachelor Thesis: 'Development of a Prototype for Program- and Deep Learning-Based Career Guidance at Schools'",
+          "Seminar: Recent Trends in 3D Computer Vision",
+          "Practical Course: Interactive Learning",
+          "Application Subject: Medicine"
         ]
       },
       {
@@ -42,10 +45,10 @@
     "experience": [
       {
         "period": "Nov 2024 - ongoing",
-        "title": "Check24 Software Developer",
+        "title": "IdentityCheck Student Software Developer",
         "location": "Munich",
         "details": [
-          "Java Developer at IdentityCheck (Identity verification service)"
+          "Software Developer at IdentityCheck (Identity verification service by Check24) using Java (Spring Boot) and React"
         ]
       },
       {
@@ -71,7 +74,7 @@
       },
       {
         "period": "Dec-Feb 2021",
-        "title": "CHECK24 Student software developer",
+        "title": "CHECK24 Student Software Developer",
         "location": "Munich",
         "details": [
           "Development of a notification tool using PHP"
@@ -79,7 +82,7 @@
       },
       {
         "period": "July-Aug 2020",
-        "title": "CHECK24 Software development internship",
+        "title": "CHECK24 Software Development Internship",
         "location": "Munich"
       },
       {
@@ -93,7 +96,7 @@
       },
       {
         "period": "2018 - 2020",
-        "title": "Freelancing as a graphic designer",
+        "title": "Freelance Graphic Designer",
         "location": "Weßling",
         "details": [
           "Image editing and layout as well as conception and creation of logos"
@@ -123,8 +126,8 @@
           "title": "CHECK24 IT scholarship",
           "location": "Munich",
           "details": [
-            "Mentoring for IT skills",
-            "Backend development of web-tool 'Gameorama' via API and Python"
+            "Mentorship programme for IT skills",
+            "Developing the concept and backend implementation of the web-tool 'Gameorama' using Python and the IGDB API"
           ]
         }
     ],
@@ -134,7 +137,7 @@
         "title": "University Mainz KlimAkademie",
         "location": "Mainz",
         "details": [
-          "Three-day seminar for students interested in the mechanics and options of preventing climate change during summer vacation"
+          "Three-day seminar for students interested in the mechanics and options of preventing climate change"
         ]
       },
       {
@@ -148,7 +151,10 @@
       {
         "period": "Jan 2018, Jan 2017",
         "title": "Georg-von-Vollmar-Academy seminar for school newspaper editors",
-        "location": "Kochel"
+        "location": "Kochel",
+        "details": [
+          "Two-day workshops on writing and layouting articles and managing student newspapers"
+        ]
       }
     ],
     "languages": [
@@ -156,6 +162,7 @@
       "<b>English</b> (fluent)",
       "<b>French</b> (good working knowledge)",
       "<b>Latin</b> (proficiency certificate - Latinum)",
+      "<b>Spanish</b> (basic knowledge)",
       "<b>Italian</b> (basic knowledge)"
     ],
     "itSkills": [
@@ -163,6 +170,7 @@
       "Java",
       "Python (incl. django)",
       "Svelte (JS framework)",
+      "React (JS framework)",
       "PHP",
       "OCaml",
       "x86 Assembly",
@@ -177,7 +185,7 @@
     "personalInterests": [
       "<a style='color:SteelBlue' href='/#/sewing' target='_blank'>Sewing</a>",
       "Archeology",
-      "Classical Literature",
+      "Literature",
       "<a style='color:SteelBlue' href='/#/printmaking' target='_blank'>Printmaking</a>",
       "<a style='color:SteelBlue' href='/#/photography' target='_blank'>(Analog) Photography</a>",
       "Gardening"
