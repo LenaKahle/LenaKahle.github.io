@@ -1,7 +1,6 @@
 <script>
     import { onMount } from "svelte";
     import ProjectIcon from "../components/ProjectIcon.svelte";
-    import Heading from "../components/Heading.svelte";
     import { push } from "svelte-spa-router";
     let projects;
 
@@ -40,11 +39,13 @@
                     </div>
                     
                     <div class="flex flex-col w-full md:w-auto px-4">
-                        <button 
+                        <button
                             on:click={() => push("/" + title)}
                         >
-                            <div class="flex flex-col w-full md:w-auto items-end md:items-start">
-                                <Heading text={title} fontSize=100 />
+                            <div class="flex flex-col items-end md:items-start">
+                                <h2 class="heading">
+                                    {title}
+                                </h2>
                                 <p class="font-new-amsterdam tracking-widest hover:underline">See More Projects →</p>
                             </div>
                         </button>

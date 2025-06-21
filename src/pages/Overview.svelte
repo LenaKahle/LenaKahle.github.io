@@ -1,7 +1,6 @@
 <script>
     import { onMount } from "svelte";
     import ProjectIcon from "../components/ProjectIcon.svelte";
-    import Heading from "../components/Heading.svelte";
     
     let data;
     let location = window.location.hash.replace('#/', '');
@@ -21,7 +20,9 @@
 <div align="center">
     {#if data}
         <div class="flex flex-col md:flex-row items-center mx-1 mb-2 justify-center md:gap-4">
-            <Heading text={category} />
+            <h1 class="heading">
+                {category}
+            </h1>
             <p class="w-full md:w-1/3 text-center md:text-left">
                 {#each data.description as description}
                     {description}<br>

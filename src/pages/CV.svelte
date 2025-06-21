@@ -1,6 +1,5 @@
 <script>
     import { onMount } from "svelte";
-    import Heading from "../components/Heading.svelte";
 
     let cv;
     const keys = ['education', 'experience', 'awards and scholarships', 'extracurricular activities'];
@@ -13,7 +12,9 @@
 
 <div align="center" class="flex flex-col items-center justify-center">
     <div>
-        <Heading text="Lena Kahle"/>
+        <h1 class="heading">
+            Lena Kahle
+        </h1>
         <a class="font-new-amsterdam tracking-widest hover:underline text-[40px]" target="_blank" href={cv?.linkedin}>LINKEDIN →</a>
     </div>
 

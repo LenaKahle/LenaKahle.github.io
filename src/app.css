@@ -1,3 +1,12 @@
 .font-new-amsterdam {
   line-height: 1;
 }
+
+.heading {
+  font-family: 'New Amsterdam', sans-serif;
+  line-height: 1;
+  font-size: 100px;
+  color: #450a0a;
+  text-shadow: 2.5px 2.5px 0 #d97706;
+}
+
