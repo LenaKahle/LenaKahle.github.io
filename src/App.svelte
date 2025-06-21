@@ -3,6 +3,7 @@
     import routes from './routes.js';
     import TailwindCss from './TailwindCss.svelte';
     import Header from './components/Header.svelte';
+    import './app.css';
 </script>
 
 <div class="max-h-screen flex flex-col bg-bright text-dark">

@@ -15,34 +15,42 @@
 
 <div align="center">
     <div class="items-center justify-center m-8 gap-4">
-        <p class="font-new-amsterdam text-[100px]">Welcome to my portfolio!</p>
+        <p class="font-new-amsterdam text-[48px] md:text-[100px]">Welcome to my portfolio!</p>
         <p>
             I'm Lena, a computer science and archaeology student. On this website, I feature some of my creative projects.
-
         </p>
-        <p>For more information about my background, check out <a href='/#/cv' class="text-accent1 hover:text-accent1-hover">my CV</a>!</p>
+        <p>
+            For more information about my background, check out 
+            <a href='/#/cv' class="text-accent1 hover:text-accent1-hover">my CV</a>!
+        </p>
     </div>
     
     {#if projects}
-        <div class="flex flex-col mx-4 justify-center w-2/3 mb-8">
+        <div class="flex flex-col justify-center w-full md:w-2/3 mb-8 gap-4">
             {#each Object.entries(projects) as [title, projects]}
-                <div class="flex flex-row items-center justify-between">
-                    <div class="flex">
+                <div class="flex flex-col md:flex-row items-center md:justify-between">
+                    <div class="flex flex-row">
                         {#each projects.projects.slice(0, 3) as projectItem}
-                            <ProjectIcon title={projectItem.title} image={projectItem.images[0]} size="250px" category={title} />
+                            <ProjectIcon 
+                                title={projectItem.title} 
+                                image={projectItem.images[0]} 
+                                category={title} 
+                            />
                         {/each}
                     </div>
                     
-                    <div class="flex flex-col">
-                        <button class="" on:click={() => push("/" + title)}>
-                            <Heading text={title} fontSize=100 />
-                            <p class="font-new-amsterdam tracking-widest hover:underline">See All Projects →</p>
+                    <div class="flex flex-col w-full md:w-auto px-4">
+                        <button 
+                            on:click={() => push("/" + title)}
+                        >
+                            <div class="flex flex-col w-full md:w-auto items-end md:items-start">
+                                <Heading text={title} fontSize=100 />
+                                <p class="font-new-amsterdam tracking-widest hover:underline">See More Projects →</p>
+                            </div>
                         </button>
                     </div>
                 </div>
             {/each}
         </div>
     {/if}
-
-    <!-- <Card title="Sewing Projects" image="images/sewing.jpg" tags={["sewing", "another tag", "tag"]} /> -->
 </div>

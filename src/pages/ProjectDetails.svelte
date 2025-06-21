@@ -13,20 +13,16 @@
     });
 </script>
 
-<div class="flex flex-row justify-between m-2">
+<div class="flex flex-col md:flex-row justify-between m-2">
     {#if project}
-    
-        <div class="w-auto">
-            <h1 class="text-[100px] leading-none font-new-amsterdam">{project.title}</h1>
-
-            <p class="text-left">
+        <div class="w-full md:w-auto">
+            <h1 class="text-[40px] md:text-[100px] font-new-amsterdam">{project.title}</h1>
+            <div class="text-left">
                 {#each project.description as infotext}
-                    <p>{infotext}</p><br>
+                    <p>{infotext}</p>
                 {/each}
-            </p>
-    
+            </div>
         </div>
-
         <div class="w-full">
             <Gallery images={project.images} />
         </div>

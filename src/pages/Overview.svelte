@@ -20,9 +20,9 @@
 
 <div align="center">
     {#if data}
-        <div class="flex flex-row items-center justify-center mx-8 gap-4">
+        <div class="flex flex-col md:flex-row items-center mx-1 mb-2 justify-center md:gap-4">
             <Heading text={category} />
-            <p class="w-1/3 text-left">
+            <p class="w-full md:w-1/3 text-center md:text-left">
                 {#each data.description as description}
                     {description}<br>
                 {/each}
