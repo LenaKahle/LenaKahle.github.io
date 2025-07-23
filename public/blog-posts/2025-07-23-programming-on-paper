@@ -1,0 +1,54 @@
+# Programming on Paper
+
+inspired by:
+- conversation with Damir on how the future of programming might look like and whether we'll keep writing code
+
+assumptions/problems to solve:
+- writing code is a very unintuitive way of communication between human and machine, and even more between human and human
+- the earliest forms of expression found are cave paintings and statues - writing came much later, and e.g. the incas built an enormous empire without ever developing a writing system
+- there is some study that showed that doctors should first analyse a scan or whatever and point out whether there is cancer BEFORE showing it to a machine trained to do the same thing - if it happens the other way around, the doctor tends to get lazy and just approves whatever the machine says
+- accountability - even if we move away from code, AI cannot be held accountable. it must be the programmer (or conductor or however we want to call them)
+
+idea
+- communication through diagrams, drawn on paper, whiteboards, other other comparable mediums devoid of distraction and direct AI intervention
+
+what issues does this solve?
+- chat history is annoying and cannot be relied upon - ideas and refinement gets lost
+- UML diagrams are great for being some in between step between human and machine but out of that context they are not very useful - lacking information, too formalised, ambiguous, easy to  make mistakes, hard to spot them. "if everything is important nothing is important" -> varying levels of definition allow to reflect system complexity. can be refined later on
+- blind trust in machines
+- loss of control
+
+advantages
+- intuitive: better than code or UML diagrams
+- flexibility of refinement
+	- work rough to fine: some things don't need to be defined line by line, solve issues as they arise
+	- different parts of a project can have different levels of refinement
+	- designed for growth: as AI gets better we just need to define less. we can consider removing previous refinements that might hinder a more efficient implementation by AI
+- control: allows retaining high level oversight on what AI is doing
+- accountability: diagrams serve as a contract between human and machine. there is a clear human author for the contract
+- personalised: no boundaries except your creativity when it comes to ideas and expression
+- sense of accomplishment
+- allows both human and machine to focus on their strengths instead of holding each other back
+
+how does programming on paper look like presently?
+- you get a ticket and think about it on paper - or make a whiteboard session as a team; this could include:
+	- architecture diagrams
+	- concrete examples and edge cases
+	- description of behaviour
+	- rough flow diagrams
+- you upload a photo to cursor in a given context and ask the tool to explain what it sees and takes away from it
+- cursor implements the code
+- you can have discussions with the AI tool as you go, and refine your drawings, make new ones, etc. as you go
+- you review the code and cross-check logic and functionality with the drawings
+
+how could programming on paper look like in the future?
+- AI agent observes whiteboard session through video or whatever and builds up understanding along the way
+- AI agent participates in team discussion or personal brainstorming sessions via voice chat ("Einstein in your basement")
+- models get better at OCR and understanding diagram input
+- you discuss the drawing with the AI and upload it. together you work out areas that need more refinement, while leaving things that are clear as they are
+- the ai proposes a diagram of its own. you can refine this together with the AI and approve
+- the AI reliably handles how the system implements this. the approved diagram functions as a binding contract, implementing not less and most importantly NOT MORE logic than is described (within a certain boundary that needs to be well defined)
+
+potential caveats:
+- the fae problem: malicious AI could find gaps in the contract and introduce harm
+- "not efficient enough" nothing ever is
