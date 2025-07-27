@@ -23,7 +23,7 @@
       created = "";
     }
 
-    const res = await fetch(`/blog-posts/${params.post}/${params.post}.md`);
+    const res = await fetch(`/blog-posts/${params.post}/blogpost.md`);
     const md = await res.text();
     html = marked(md);
     loading = false;
