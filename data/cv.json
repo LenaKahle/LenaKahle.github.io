@@ -3,6 +3,11 @@
     "linkedin": "https://www.linkedin.com/in/lena-kahle-97393419b",
     "education": [
       {
+        "period": "2025 - ongoing",
+        "title": "TUM Computer Science Master",
+        "location": "Munich"
+      },
+      {
         "period": "2024 - ongoing",
         "title": "LMU Archaeology Bachelor",
         "location": "Munich"
@@ -21,12 +26,12 @@
       },
       {
         "period": "2019-2021",
-        "title": "TUMKolleg at the Otto-von-Taube-Gymnasium (High School)",
+        "title": "TUMKolleg at the Otto-von-Taube-Gymnasium",
         "location": "Gauting",
         "details": [
           "Abitur grade: 1.0",
           "Collaboration of the Technical University Munich and high school for scientifically interested students which includes getting to know the TUM facilities",
-          "Writing a research paper: Analysis of a Life Support System for a Lunar South Pole Baseat the chair for space technology at the TUM"
+          "Writing a research paper: Analysis of a Life Support System for a Lunar South Pole Base at the chair for space technology at the TUM"
         ]
       },
       {
@@ -118,7 +123,7 @@
         "details": [
           "Award for the best interdisciplinary research project (Bavarian state winner)",
           "Award of the German Aerospace Center (DLR) for a research project in the field of space (special award in the national competition)",
-          "Guest speaker at the Bavarian Space Summit with astronauts Matthias Maurer and Alexander Gerst and Bavarian Governor Markus Söder"
+          "Guest speaker at the Bavarian Space Summit with astronauts Matthias Maurer and Alexander Gerst and Bavarian Governor Markus Söder (<a href='https://youtu.be/t9v4_9YSgeI?t=1870' target='_blank' class='text-accent2 hover:text-accent1-hover'>link to video</a>)"
         ]
       },
       {
@@ -142,7 +147,7 @@
       },
       {
         "period": "July 2019",
-        "title": "Academy for political education",
+        "title": "Academy for Political Education",
         "location": "Tutzing",
         "details": [
           "Advanced seminar on data protection and privacy"
@@ -186,8 +191,9 @@
       "<a style='color:SteelBlue' href='/#/sewing' target='_blank'>Sewing</a>",
       "Archeology",
       "Literature",
+      "<a style='color:SteelBlue' href='/#/painting' target='_blank'>Oil Painting</a>",
       "<a style='color:SteelBlue' href='/#/printmaking' target='_blank'>Printmaking</a>",
-      "<a style='color:SteelBlue' href='/#/photography' target='_blank'>(Analog) Photography</a>",
+      "(Analog) Photography",
       "Gardening"
     ]
   }
