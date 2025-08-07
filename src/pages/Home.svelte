@@ -19,8 +19,7 @@
             I'm Lena, a computer science and archaeology student. On this website, I feature some of my creative projects.
         </p>
         <p>
-            For more information about my background, check out 
-            <a href='/#/cv' class="text-accent1 hover:text-accent1-hover">my CV</a>!
+            For more information about my background, check out <a href='/#/cv' class="text-accent2 hover:text-accent1-hover">my CV</a>!
         </p>
     </div>
     

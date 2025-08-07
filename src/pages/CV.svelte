@@ -36,7 +36,7 @@
                                 {#if item.details}
                                     <ul class="list-disc list-inside mt-1 ml-4 text-left">
                                         {#each item.details as detail}
-                                            <li>{detail}</li>
+                                            <li>{@html detail}</li>
                                         {/each}
                                     </ul>
                                 {/if}

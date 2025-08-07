@@ -21,10 +21,15 @@
       {#each posts as post}
         <a
           href={`#/blog/${post.slug}`}
-          class="block bg-bright rounded-lg shadow hover:shadow-lg transition-shadow p-4 border border-accent1/10 hover:border-accent1"
+          class="block bg-bright rounded-lg shadow hover:shadow-lg transition-shadow p-4 border border-2 border-accent1/10 hover:border-accent1"
         >
           <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
-            <span class="font-semibold text-lg text-accent1">{post.title}</span>
+            <div class="flex items-center gap-4 w-full">
+              {#if post.image}
+                <img src={post.image} alt="Blog preview" class="w-24 h-24 object-cover rounded-md border border-gray-200" />
+              {/if}
+              <span class="font-semibold text-lg text-accent1">{post.title}</span>
+            </div>
             <span class="text-sm text-gray-500">{new Date(post.created).toLocaleDateString()}</span>
           </div>
         </a>
