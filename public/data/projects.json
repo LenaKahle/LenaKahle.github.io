@@ -60,6 +60,16 @@
                 ]
             },
             {
+                "title": "Wardrobe Statistics",
+                "description": [
+                    "I started a spreadsheet to keep track of my clothing. I track things like material, secondhand status, whether I made it myself, and color. Since October 2024 I track what I wear each day. I am not using the data actively yet, but it's nice to gather it for the future.",
+                    "The shown statistics are from the end of 2024."
+                ],
+                "images": [
+                    "images/sewing/wardrobe_statistics/1.jpg"
+                ]
+            },
+            {
                 "title": "Ray Shirt",
                 "description": [
                     "A decorated t-shirt I made using the Sparrow Tee pattern by Common Stitch."
@@ -185,41 +195,53 @@
         ]
     },
 
-    "programming": {
-        "description": [],
-        "image": "images/programming.jpg",
+    "painting": {
+        "description": [
+            "I recently started painting with oil paints, after watching many videos to learn the basics."
+        ],
+        "image": "images/printmaking.jpg",
         "projects": [
             {
-                "title": "Career Counselling Questionnaire Tool",
+                "title": "Master Study 'Portrait of Millicent'",
                 "description": [
-                    "My thesis Project! [todo]"
-                ],
-                "images": []            
-            },
-            {
-                "title": "My Portfolio Website",
-                "description": [
-                    "This Website has gone through various iterations. The current implementation uses Svelte, after I discovered how great it is during my bachelor thesis project.",
-                    "Below, you can find some design sketches and screenshots of previous states of my portfolio! [todo]"
-                ],
-                "images": []
-            },
-            {
-                "title": "Gameorama",
-                "description": [
-                    "Gameorama is a project that I realized as part of the Check24 IT scholarship for high school students (CodeClub).",
-                    "I had the idea of making a tool that allows the user to discover new video games based on their favourite one. With my team, we started working on the implementation.",
-                    "I programmed the Django backend in which I queried the video games from the IGDB API and wrote a script to calculate similarity between games. I also designed our logo!"
+                    "A master study of the John Singer Sargant painting 'Portrait of Millicent, Duchess of Sutherland' that I did in February 2025."
                 ],
                 "images": [
-                    "images/programming/gameorama.png",
-                    "images/programming/gameorama/1.png",
-                    "images/programming/gameorama/2.png"
+                    "images/oilpainting/portrait_millicent/1.JPG",
+                    "images/oilpainting/portrait_millicent/2.JPG",
+                    "images/oilpainting/portrait_millicent/3.jpg",
+                    "images/oilpainting/portrait_millicent/4.jpg",
+                    "images/oilpainting/portrait_millicent/5.jpg"
+                ]
+            },
+            {
+                "title": "View out of hostel window in Edinburgh",
+                "description": [
+                    "I travelled to Scotland in January of 2025 and stayed in the amazing Castle Rock Hostel. I loved the view out of the bathroom window, so I decided to paint it."
+                ],
+                "images": [
+                    "images/oilpainting/hostel_view/5.jpg",
+                    "images/oilpainting/hostel_view/1.jpg",
+                    "images/oilpainting/hostel_view/2.jpg",
+                    "images/oilpainting/hostel_view/3.jpg",
+                    "images/oilpainting/hostel_view/4.jpg"
+
+                ]
+            },
+            {
+                "title": "Asaro Heads",
+                "description": [
+                    "Asaro Heads for practice"
+                ],
+                "images": [
+                    "images/oilpainting/asaro_heads/0.jpg",
+                    "images/oilpainting/asaro_heads/1.jpg"
                 ]
             }
 
         ]
     },
+
 
     "printmaking": {
         "description": ["Linocuts and Stamps"],
@@ -339,9 +361,46 @@
         ]
     },
 
-    "photography": {
+    "programming": {
         "description": [],
-        "image": "images/photography.jpg",
-        "projects": []
+        "image": "images/programming.jpg",
+        "projects": [
+            {
+                "title": "Career Counselling Questionnaire Tool",
+                "description": [
+                    "A careed counselling questionnaire tool developed with psychologist Silvia Gurdan. It is used in high schools to help students find their career path. I developed the tool for my bachelor thesis project."
+                ],
+                "images": [
+                    "images/programming/berufsberatung/logo.png",
+                    "images/programming/berufsberatung/startseite.png",
+                    "images/programming/berufsberatung/interessen.png",
+                    "images/programming/berufsberatung/ergebnisse.png"
+                ]
+            },
+            {
+                "title": "My Portfolio Website",
+                "description": [
+                    "This Website has gone through various iterations. The current implementation uses Svelte, after I discovered how great it is during my bachelor thesis project.",
+                    "Below, you can find some design sketches and screenshots of previous states of my portfolio! [todo]"
+                ],
+                "images": [
+                    "images/programming/website/logo.png"
+                ]
+            },
+            {
+                "title": "Gameorama",
+                "description": [
+                    "Gameorama is a project that I realized as part of the Check24 IT scholarship for high school students (CodeClub).",
+                    "I had the idea of making a tool that allows the user to discover new video games based on their favourite one. With my team, we started working on the implementation.",
+                    "I programmed the Django backend in which I queried the video games from the IGDB API and wrote a script to calculate similarity between games. I also designed our logo!"
+                ],
+                "images": [
+                    "images/programming/gameorama.png",
+                    "images/programming/gameorama/1.png",
+                    "images/programming/gameorama/2.png"
+                ]
+            }
+
+        ]
     }
 }

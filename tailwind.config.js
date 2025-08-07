@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Cambria', 'serif'],
+        sans: ['Inter', 'sans-serif'],
         'new-amsterdam': ['New Amsterdam', 'sans-serif'],
       },
       colors: {
@@ -19,12 +19,12 @@ export default {
         },
         accent2: colors.amber[600],
         accent3: '#60682E',
-      },
+      }
     },
   },
   variants: {
     extend: {},
   },
   plugins: [],
-};
+}
 

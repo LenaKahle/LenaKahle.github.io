@@ -1,5 +1,3 @@
-# Intuitive drawing and diagram-based agreements between human and machine as the future of programming
-
 Communication between man and Turing machines is full of compromises, hindering humans from intuitively expressing their ideas to the machine. The restrictions imposed through the requirements of communicating in human-readable code are hindering the machine from choosing the most performant implementation. The code we write is at a fixed level of abstraction, meaning as much consideration is needed for the definition of critical components as for less important features.
 
 I propose a different way of programming more aligned with human nature through
