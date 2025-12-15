@@ -197,7 +197,7 @@
 
     "painting": {
         "description": [
-            "I recently started painting with oil paints, after watching many videos to learn the basics."
+            "I started painting with oil paints in December 2024, after watching some videos to learn the basics."
         ],
         "image": "images/printmaking.jpg",
         "projects": [
@@ -212,6 +212,53 @@
                     "images/oilpainting/portrait_millicent/3.jpg",
                     "images/oilpainting/portrait_millicent/4.jpg",
                     "images/oilpainting/portrait_millicent/5.jpg"
+                ]
+            },
+            {
+                "title": "Moroccan Landscape",
+                "description": [
+                    "An image painted based on memories from visiting Aït-Ben-Haddou in Morocco following a landscape painting by Paul Cezanne."
+                ],
+                "images": [
+                    "images/oilpainting/morocco.jpg",
+                    "images/oilpainting/cezanne_landscape.png"
+                ]
+            },
+            {
+                "title": "Still Life with the Goddess of Lug",
+                "description": [
+                    "Still life loosely based on what is on my bookshelf, including a small statue of the prehistoric goddess of Lug that I won in my prehistoric archaeology tutorial."
+                ],
+                "images": [
+                    "images/oilpainting/still_life_lug.jpg"
+                ]
+            },
+            {
+                "title": "WIP Huyna Potosi",
+                "description": [
+                    "Current status of a painting of the 6088m high mountain Huyna Potosi located in Bolivia, for my brother who climbed it."
+                ],
+                "images": [
+                    "images/oilpainting/huyna_potosi_1.jpg",
+                    "images/oilpainting/huyna_potosi_2.jpg"
+                ]
+            },
+            {
+                "title": "Women from Memory",
+                "description": [
+                    "Loosely painted women from memory, started as self portraits but I decided to diverge from reality. The second one reminds me of Morticia Adams."
+                ],
+                "images": [
+                    "images/oilpainting/women_from_memory.jpg"
+                ]
+            },
+            {
+                "title": "Blue Horses from Memory",
+                "description": [
+                    "Blue horses painted from memory, based on experience from travelling to the Altyn-Arashan valley of Kyrgyzstan."
+                ],
+                "images": [
+                    "images/oilpainting/horses.jpg"
                 ]
             },
             {
@@ -237,8 +284,17 @@
                     "images/oilpainting/asaro_heads/0.jpg",
                     "images/oilpainting/asaro_heads/1.jpg"
                 ]
+            },
+            {
+                "title": "Yilin and her cat",
+                "description": [
+                    "My friend with her cat, given to her as a thank you for being an incredible guide for a trip to her homecountry China."
+                ],
+                "images": [
+                    "images/oilpainting/yilin_0.JPG",
+                    "images/oilpainting/yilin_1.JPG"
+                ]
             }
-
         ]
     },
 
