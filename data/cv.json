@@ -10,10 +10,13 @@
       {
         "period": "2024 - ongoing",
         "title": "LMU Archaeology Bachelor",
-        "location": "Munich"
+        "location": "Munich",
+        "details": [
+          "Interdisciplinary projects with computer science such as developing the user interface for a deep learning based osteoarchaeological bone reconstruction tool for the EXCALIBUR project"
+        ]
       },
       {
-        "period": "2020 - 2024",
+        "period": "2021 - 2024",
         "title": "TUM Computer Science Bachelor",
         "location": "Munich",
         "details": [
@@ -189,7 +192,6 @@
     ],
     "personalInterests": [
       "<a style='color:SteelBlue' href='/#/sewing' target='_blank'>Sewing</a>",
-      "Archeology",
       "Literature",
       "<a style='color:SteelBlue' href='/#/painting' target='_blank'>Oil Painting</a>",
       "<a style='color:SteelBlue' href='/#/printmaking' target='_blank'>Printmaking</a>",
