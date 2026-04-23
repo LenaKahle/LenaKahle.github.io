@@ -1,8 +1,15 @@
 <script>
     import { onMount } from "svelte";
+    import Gallery from "../components/Gallery.svelte";
 
     let cv;
     const keys = ['education', 'experience', 'awards and scholarships', 'extracurricular activities'];
+
+    const cvImages = [
+        '/images/cv/raumfahrtgipfel.jpg',
+        '/images/cv/isar_aerospace.jpg',
+        '/images/cv/jugend_forscht.png'
+    ];
 
     onMount(async() => {
         const response = await fetch('data/cv.json');
@@ -69,6 +76,10 @@
                     </span>
                 </div>
             </div>
+        </div>
+
+        <div class="w-full md:w-2/3 bg-bright rounded-lg shadow p-4">
+            <Gallery images={cvImages} />
         </div>
     {/if}
 </div>
