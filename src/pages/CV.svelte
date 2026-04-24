@@ -11,6 +11,12 @@
         '/images/cv/jugend_forscht.png'
     ];
 
+    const cvDescriptions = [
+        'Bavarian Space Summit with astronauts Matthias Maurer and Alexander Gerst',
+        'Panel discussion on the role of women in the space industry at Isar Aerospace with astronaut Amelie Schoenenwald and Swedish ambassador Per Thöresson',
+        'Science competition Jugend forscht with Willi Weitzel and Daniel Gurdan'
+    ];
+
     onMount(async() => {
         const response = await fetch('data/cv.json');
         cv = await response.json();
@@ -79,7 +85,7 @@
         </div>
 
         <div class="w-full md:w-2/3 bg-bright rounded-lg shadow p-4">
-            <Gallery images={cvImages} />
+            <Gallery images={cvImages} descriptions={cvDescriptions} />
         </div>
     {/if}
 </div>

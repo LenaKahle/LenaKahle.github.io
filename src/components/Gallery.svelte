@@ -2,6 +2,7 @@
     import { onMount, onDestroy } from "svelte";
 
     export let images = [];
+    export let descriptions = [];
     let currentIndex = 0;
 
     function goNext() {
@@ -57,9 +58,11 @@
         </button>
 
         <!-- Description Overlay -->
-        <!-- <div class="absolute bottom-0 w-full bg-white bg-opacity-75 text-center p-2 text-sm">
-            {descriptions[currentIndex]}
-        </div> -->
+        {#if descriptions && descriptions[currentIndex]}
+            <div class="absolute bottom-0 w-full bg-dark bg-opacity-75 text-bright text-center p-3 text-sm">
+                {descriptions[currentIndex]}
+            </div>
+        {/if}
     </div>
 
     <!-- Thumbnail Row -->
